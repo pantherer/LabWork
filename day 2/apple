@@ -1,0 +1,6 @@
+student=int(input("enter number of students")
+apple=int(input("enter number of apples")
+get=student//apple
+basket=student%apple
+print("number of apple each get = ",get)
+print("remaining on basket= ",basket)
