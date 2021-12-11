@@ -7,7 +7,7 @@ while total_day == 365 or total_day == 366:
     else:
         print("it is a leap year")
         break'''
-total_day = int(input("enter the number of  days of this year"))
+total_day = int(input("enter this year"))
 if (total_day % 4 == 0) and (total_day != 100) and (total_day == 400) :
     print ("it is leap year")
 else:
